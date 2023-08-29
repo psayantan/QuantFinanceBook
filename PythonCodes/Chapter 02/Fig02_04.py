@@ -36,3 +36,4 @@ def PlotLogNormalDensity():
     plt.legend(['sigma =0.25','sigma =0.75','sigma =1.25','sigma =1.75',])
     
 PlotLogNormalDensity()
+plt.show()
