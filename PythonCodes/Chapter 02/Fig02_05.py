@@ -86,3 +86,4 @@ def MainCode():
     plt.legend(['E^P[S(t)/M(t)]','paths S(t)/M(t)'])
     
 MainCode()
+plt.show()
