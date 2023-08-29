@@ -57,3 +57,4 @@ def mainCalculation():
         plt.plot(ti*np.ones([300,1]),range(0,300),'--k')
        
 mainCalculation()
+plt.show()
