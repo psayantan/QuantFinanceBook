@@ -26,7 +26,7 @@ def CallPutOptionPriceCOSMthd(cf,CP,S0,r,tau,K,N,L):
     
     # Assigning i=sqrt(-1)
 
-    i = np.complex(0.0,1.0) 
+    i = complex(0.0,1.0)
     
     x0 = np.log(S0 / K)   
     
@@ -109,7 +109,7 @@ def BS_Call_Option_Price(CP,S_0,K,sigma,tau,r):
     return value
 
 def mainCalculation():
-    i = np.complex(0.0,1.0)
+    i = complex(0.0,1.0)
     
     CP = "c"
     S0 = 100.0
@@ -156,3 +156,4 @@ def mainCalculation():
         print("Abs error for strike {0} is equal to {1:.2E}".format(K[i],error[i]))
         
 mainCalculation()
+plt.show()

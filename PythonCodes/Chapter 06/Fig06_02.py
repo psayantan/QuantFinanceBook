@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import scipy.stats as st
 
 def COSDensity(cf,x,N,a,b):
-    i = np.complex(0.0,1.0) #assigning i=sqrt(-1)
+    i = complex(0.0,1.0) #assigning i=sqrt(-1)
     k = np.linspace(0,N-1,N)
     u = np.zeros([1,N])
     u = k * np.pi / (b-a)
@@ -26,7 +26,7 @@ def COSDensity(cf,x,N,a,b):
     return f_X
     
 def mainCalculation():
-    i = np.complex(0.0, 1.0) #assigning i=sqrt(-1)
+    i = complex(0.0, 1.0) #assigning i=sqrt(-1)
     
     # Setting for the COS method 
 
@@ -61,3 +61,4 @@ def mainCalculation():
     
     
 mainCalculation()
+plt.show()
